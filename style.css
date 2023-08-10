@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'DM Mono', 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin-top: auto;
+}
+
+.calc-body {
+    width: 400px;
+    height: 665px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Screen styling */
+
+.screen {
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#value {
+    font-size: 50px;
+}
+
+/* Buttons styling */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+
+#delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equals {
+    flex-grow: 2;
+}
+
+.btn-numbers:hover {
+    background-color: #EBEBEB;
+}
+
+.btn-operations:hover {
+    background-color: #C6D5EB;
+}
+
+#equals:hover {
+    background-color: #CAEBBB;
+}
+
+#erase:hover {
+    background-color: #EBD0D0;
+}
+
+#delete:hover {
+    background-color: #EBE7C0;
+}
+
+
+/* Footer */
+
+footer {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: 25px;
+}
